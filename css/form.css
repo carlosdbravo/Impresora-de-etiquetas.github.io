@@ -1,0 +1,22 @@
+*body{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.cotizador{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 80vh;
+}
+form{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+@media only screen and (max-width: 500px){
+.cotizador{
+    font-size: small;
+}
+}

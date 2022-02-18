@@ -1,0 +1,297 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Oswald", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+.slide {
+  float: left;
+  width: 100%;
+  height: auto;
+}
+.slide img {
+  height: 100vh;
+  size: contain;
+}
+.somos {
+  width: 100%;
+  height: 20vh;
+  background-color: #181a1b;
+}
+.somos h1 {
+  padding: 10px;
+  color: white;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+}
+.somos p {
+  text-align: center;
+  color: white;
+  font-family: "Oswald", sans-serif;
+}
+.features {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.features figure {
+  margin: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 28vw;
+  height: auto;
+  text-align: center;
+  /*border: 1px solid lightgrey;*/
+}
+
+.features img {
+  margin-top: 10%;
+  width: 15%;
+  height: 15%;
+  background-size: contain cover;
+}
+.cotizar {
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.cotizar h1 {
+  color: black;
+}
+.cotizar ul {
+  list-style: none;
+  width: 100%;
+  text-align: center;
+}
+.cotizar ul li {
+  display: inline-block;
+  background-color: #ff5101;
+  padding: 1%;
+  margin: 2%;
+  border-radius: 20px;
+  width: 20%;
+}
+.cotizar ul li:hover {
+  transform: scale(1.1);
+  transition: all 500ms linear;
+}
+.cotizar ul li a {
+  color: white;
+  text-decoration: none;
+}
+.cotizar ul li a:hover {
+  color: white;
+  transition: all 0.3s linear;
+}
+.contacto {
+  float: left;
+  height: 80vh;
+  width: 100%;
+  background-color: black;
+}
+.contacto .con1 h4 {
+  margin-top: 4vh;
+}
+.contacto-1 {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.con1 {
+  width: 100%;
+  height: 20%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Oswald", sans-serif;
+}
+.contacto-1-s1 {
+  width: 33%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contacto-1-s1 ul {
+  list-style: none;
+}
+.contacto-1-s1 ul li {
+  display: inline-block;
+}
+.contacto-1-s1 ul li a {
+  color: white;
+  text-decoration: none;
+}
+.contacto-1-s1 ul li a:hover {
+  color: #3da123;
+  transition: all 0.3s linear;
+}
+.contacto-1-s2 {
+  width: 33%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contacto-1-s2 ul {
+  list-style: none;
+}
+.contacto-1-s2 ul li {
+  display: inline-block;
+}
+.contacto-1-s2 ul li a {
+  color: white;
+  text-decoration: none;
+}
+.contacto-1-s2 ul li a:hover {
+  color: #046582;
+  transition: all 0.3s linear;
+}
+.contacto-1-s3 {
+  width: 33%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contacto-1-s3 ul {
+  list-style: none;
+}
+.contacto-1-s3 ul li {
+  display: inline-block;
+}
+.contacto-1-s3 ul li a {
+  color: white;
+  text-decoration: none;
+}
+.contacto-1-s3 ul li a:hover {
+  color: #b81212;
+  transition: all 0.3s linear;
+}
+.contacto-2 {
+  width: 100%;
+  height: 55%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.contacto-2 h4 {
+  color: white;
+  font-family: "Oswald", sans-serif;
+}
+.contacto-3 {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contacto-3 h5 {
+  color: white;
+  font-family: "Oswald", sans-serif;
+}
+
+@media only screen and (max-width: 815px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  .slide img {
+	height: 100vh;
+	size: contain;
+  }
+  .somos {
+	height: auto;
+  }
+  .features {
+	height: auto;
+  }
+  .cotizar{
+    height: auto;
+  }
+  .cotizar ul{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	  }
+	  .cotizar ul li {
+	  padding: 2%;
+	  margin: 1%;
+	  width: 70%;
+	  }
+	  .cotizar ul li a {font-size: large;}
+  .contacto-1-s2 {width: 44%;}
+  .contacto-1-s3 {width: 28%;}
+  .contacto-1-s1 {width: 28%;}
+}
+
+@media only screen and (max-width: 500px){
+	.slide img {
+		height: 40vh;
+		size: contain;
+	  }
+	  .somos {
+		height: 33vh;
+	  }
+	  .features {
+		height: auto;
+		display: flex;
+		flex-direction: column;
+	  }
+	  .features figure {
+		  width: 90%;
+		  height: auto;
+		/*margin: 5%;*/
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+		/*border: 1px solid lightgrey;*/
+	  }
+	  .cotizar {
+		height: auto;	
+	  }
+	  .cotizar ul{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	  }
+	  .cotizar ul li {
+	  padding: 2%;
+	  margin: 1%;
+	  width: 70%;
+	  }
+	  .cotizar ul li a {font-size: large;}
+	  .contacto {
+		font-size: large;
+		height: 100vh;
+	  }
+	.contacto-1{
+		height: auto;
+	}
+	  .contacto-1-s2 {width: 100%;}
+	  .contacto-1-s3 {width: 100%;}
+	  .contacto-1-s1 {width: 100%; }
+	}
+
