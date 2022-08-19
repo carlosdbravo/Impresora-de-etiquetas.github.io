@@ -71,19 +71,21 @@ html {
 }
 .cotizar ul {
   list-style: none;
-  width: 100%;
+  width: 70%;
   text-align: center;
 }
 .cotizar ul li {
+  box-shadow: 2px 2px 2px black;
   display: inline-block;
   background-color: #ff5101;
-  padding: 1%;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
   margin: 2%;
-  border-radius: 20px;
+  border-radius: 10px;
   width: 20%;
 }
 .cotizar ul li:hover {
-  transform: scale(1.1);
+  background-color:#ff4101;
   transition: all 500ms linear;
 }
 .cotizar ul li a {
@@ -92,7 +94,7 @@ html {
 }
 .cotizar ul li a:hover {
   color: white;
-  transition: all 0.3s linear;
+  transition: all 0.1s linear;
 }
 .contacto {
   float: left;

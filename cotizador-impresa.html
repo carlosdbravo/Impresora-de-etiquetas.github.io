@@ -58,7 +58,7 @@
         </li>
         <li>
           <a
-            href="https://wa.me/5213313108986"
+            href="https://wa.me/5213316616705"
             target="_blank"
             class="icon-whatsapp"
           ></a>
@@ -87,7 +87,7 @@
                 <li><a href="cotizador-herrajaes.html">Herrajes</a></li>
               </ul>
             </li>
-            <li><a href="index.html #contacto">Contacto</a></li>
+            <li><a href="index.html#contacto">Contacto</a></li>
           </ul>
         </nav>
       </div>
@@ -159,7 +159,7 @@
     </div>
     <div id="cotizador-impresa" class="cotizador">
       <h2>Cotizador</h2>
-      <form id="cotizar-bordada" name="">
+      <form id="cotizar-impresa" name="">
         <p>
           Ingresa la medida de ancho en milimetros:
           <select name="ancho" id="Ancho">
@@ -237,11 +237,31 @@
         </p>
         <p>Plastificado
           <select name="plastificado" id="Plastificado">
-            <option value="0"Selected>No</option>
+            <option value="0"selected>No</option>
             <option value="1">Si</option>
           </select>
         </p>
-        Ojillo metalico
+        <p >Ojillo metalico
+          <select name="ojillo" id="Ojillo">
+            <option value="0" selected>No</option>
+            <option value="1">Si</option>
+          </select>
+        </p>
+        <p>
+          <p>Cantudad de piezas
+            <select name="piezas" id="Piezas">
+              <option value="5000" selected>5,000 piezas</option>
+              <option value="7000">7,000 piezas</option>
+              <option value="9000">9,000 piezas</option>
+              <option value="10000">10,000 piezas</option>
+              <option value="12000">12,000 piezas</option>
+              <option value="mayor a 12000">Mayor a 12,0000</option>
+            </select>
+          </p>
+          <button type="button" onclick="etiquetabordada();" class="btn btn-success">Cotizar</button>
+         <p>Tomese en cuenta que se agrega iva</p>
+         <p>costo por pieza: <spam id="Total"></spam> &nbsp;/&nbsp;&nbsp;Total: <span id="Pedidototal"></span></p>
+        </p>
       </form>
     </div>
 
