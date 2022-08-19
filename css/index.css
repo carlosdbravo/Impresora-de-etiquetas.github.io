@@ -75,7 +75,7 @@ html {
   text-align: center;
 }
 .cotizar ul li {
-  box-shadow: 2px 2px 2px black;
+  box-shadow: 15px 15px 25px rgba(00, 00, 00, 0.5);
   display: inline-block;
   background-color: #ff5101;
   padding-top: 0.5%;
@@ -86,7 +86,21 @@ html {
 }
 .cotizar ul li:hover {
   background-color:#ff4101;
-  transition: all 500ms linear;
+
+  
+}
+.b:hover{
+  width: 21%;
+}
+.i:hover{
+  width: 21%;
+}
+.e:hover{
+  width: 21%;
+}
+
+.h:hover{
+  width: 21%;
 }
 .cotizar ul li a {
   color: white;
@@ -94,7 +108,7 @@ html {
 }
 .cotizar ul li a:hover {
   color: white;
-  transition: all 0.1s linear;
+  transition: all 500ms linear;
 }
 .contacto {
   float: left;
@@ -241,6 +255,19 @@ html {
 	  margin: 1%;
 	  width: 70%;
 	  }
+    .b:hover{
+      width: 72%;
+    }
+    .i:hover{
+      width: 72%;
+    }
+    .e:hover{
+      width: 72%;
+    }
+    
+    .h:hover{
+      width: 72%;
+    }
 	  .cotizar ul li a {font-size: large;}
   .contacto-1-s2 {width: 44%;}
   .contacto-1-s3 {width: 28%;}

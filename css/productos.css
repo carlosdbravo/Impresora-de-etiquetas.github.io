@@ -16,24 +16,17 @@
  
 }
 .a {
-  margin-top: 1vw;
-  margin-left:22%;
-  margin-right:22%;
-  text-decoration: inherit;
+ 
   background-color: #ff5101;
   color: white;
-  padding: 1%;
   border-radius: 30px;
-  width: 40%;
-  height: 10vh;
-  text-align: center;
   box-shadow: 15px 15px 25px rgba(00, 00, 00, 0.5);
 }
 .a:hover {
   text-decoration: none;
   color: white;
   transition: all 500ms linear;
-  width: 50%;
+  width: 14%;
 }
 .cont h1 {
   padding-top: 3vw;
@@ -72,7 +65,7 @@
   transition: all 500ms ease-out;
 }
 
-@media only screen and (max-width: 830px) {
+@media only screen and (max-width: 991px) {
     
   .a {
     font-size: x-large;
@@ -116,7 +109,7 @@
   }
  
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 575px) {
   .a {
     margin-left:15%;
     font-size: x-large;
