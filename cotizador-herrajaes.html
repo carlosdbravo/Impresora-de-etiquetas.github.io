@@ -57,7 +57,7 @@
         </li>
         <li>
           <a
-            href="https://wa.me/5213313108986"
+            href="https://wa.me/5213316616705"
             target="_blank"
             class="icon-whatsapp"
           ></a>
@@ -86,7 +86,7 @@
                 <li><a href="cotizador-herrajaes.html">Herrajes</a></li>
               </ul>
             </li>
-            <li><a href="index.html #contacto">Contacto</a></li>
+            <li><a href="index.html#contacto">Contacto</a></li>
           </ul>
         </nav>
       </div>
@@ -157,7 +157,44 @@
     </div>
     <div id="cotizador-herrajaes" class="cotizador">
       <h2>Cotizador</h2>
-      <form id="cotizar-bordada" name=""></form>
+      <form id="cotizar-herrajes" name="">
+        <p>Elegir tipo de material
+          <select name="materialHerrajes" id="materialHerrajes">
+            <option value="zamark">Zamark</option>
+            <option value="lamina">Lamina</option>
+            <option value="Acero">Acero </option>
+          </select>
+          </p>
+          <p>Elegir terminado
+            <select name="materialHerrajes" id="materialHerrajes">
+              <option value="Cobre">Cobre</option>
+              <option value="Cobre Brilloso">Cobre Brilloso</option>
+              <option value="Cobre Viejo">Cobre Viejo</option>
+              <option value="Lamina Pulida">Lamina Pulida</option>
+              <option value="Niquel">Niquel</option>
+              <option value="Niquel Brilloso">Niquel Brilloso</option>
+              <option value="Laton">Laton</option>
+              <option value="Laton Viejo">Laton Viejo</option>
+              <option value="Acero">Acero </option>
+
+
+
+            </select>
+            </p>
+          <p>Cantudad de piezas
+            <select name="PiezasHerrajes" id="PiezasHerrajes">
+              <option value="10000">10,000 piezas</option>
+              <option value="12000">20,000 piezas</option>
+              <option value="12000">30,000 piezas</option>
+              <option value="mayor a 12000">Mayor a 30,0000</option>
+            </select>
+          </p>
+          <p>
+            <button type="button" onclick="etiquetabordada();" class="btn btn-success">Cotizar</button>
+           <p>Tomese en cuenta que se agrega iva</p>
+           <p>costo por pieza: <spam id="Total"></spam> &nbsp;/&nbsp;&nbsp;Total: <span id="Pedidototal"></span></p>
+          </p>
+      </form>
     </div>
 
     <!-- Optional JavaScript -->

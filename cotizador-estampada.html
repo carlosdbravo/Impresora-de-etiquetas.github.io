@@ -26,7 +26,7 @@
             <li><a href="https://www.facebook.com/Impresoradeetiquetaspersonalizadas" target="_blank "class="icon-facebook"></a></li>
             <li><a href="https://www.instagram.com/impresoradeetiquetas/"target="_blank" class="icon-instagram"></a></li>
             <li><a href="https://www.google.com.mx/maps/place/Calle+Juan+%C3%81lvarez+1292,+Santa+Teresita,+44600+Guadalajara,+Jal./@20.6848503,-103.3656682,17z/data=!3m1!4b1!4m5!3m4!1s0x8428ae1ed8afa165:0x6e571d597f00bf67!8m2!3d20.6848503!4d-103.3634795?hl=es&authuser=0" target="_blank" class="icon-location"></a></li>
-            <li><a href="https://wa.me/5213313108986" target="_blank" class="icon-whatsapp"></a></li>
+            <li><a href="https://wa.me/5213316616705" target="_blank" class="icon-whatsapp"></a></li>
             
         </ul>   
     </div>
@@ -47,7 +47,7 @@
                                <li><a href="cotizador-herrajaes.html">Herrajes</a></li>
                             </ul>
                         </li>
-                       <li><a href="index.html #contacto">Contacto</a></li>
+                       <li><a href="index.html#contacto">Contacto</a></li>
                     </ul>
                 </nav>
             </div>
@@ -125,8 +125,65 @@
         </div>
         <div id="cotizador-estampada" class="cotizador">
             <h2>Cotizador</h2>
-            <form id="cotizar-bordada" name="">
-        </form>
+            <form id="cotizar-estampada" name="">
+                <p>
+                  Ingresa la medida de ancho en milimetros:
+                  <select name="ancho" id="Ancho">
+                    <option value="2">25  mm</option>
+                    <option value="3">30 mm</option>
+                    <option value="4" selected>40 mm</option>
+                    <option value="4.5">45 mm</option>
+                  </select>
+                </p>
+                <p>
+                  Ingresa la medida de altura en milimetros:
+                  <select name="largo" id="Largo">
+                    <option value="1.5">15 mm</option>
+                    <option value="2">20 mm</option>
+                    <option value="3">30 mm</option>
+                    <option value="4">40 mm</option>
+                    <option value="4.5">45 mm</option>
+                    <option value="5">50 mm</option>
+                    <option value="6" selected>60 mm</option>
+                    <option value="7">70 mm</option>
+                    <option value="8">80 mm</option>
+                    <option value="9">90 mm</option>
+                    <option value="10">100 mm</option>
+                    <option value="11">110 mm</option>
+                    <option value="12">120 mm</option>
+                    <option value="13">130 mm</option>
+                  </select>
+                </p>
+                <p>Cantidad de tintas o colores (El fondo no cuenta)
+                  <select name="colores" id="Colores">
+                    <option value="1"selected>1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                  </select>
+                </p>
+                <p>Tipo de cinta
+                  <select name="carton" id="Carton">
+                    <option value="1">Nylon</option>
+                    <option value="2"selected >Satin</option>
+                    <option value="3">Poliester</option>
+                  </select>
+                </p>
+                <p>Cantudad de piezas
+                  <select name="piezas" id="Piezas">
+                    <option value="5000" selected>5,000 piezas</option>
+                    <option value="7000">7,000 piezas</option>
+                    <option value="9000">9,000 piezas</option>
+                    <option value="10000">10,000 piezas</option>
+                    <option value="12000">12,000 piezas</option>
+                    <option value="mayor a 12000">Mayor a 12,0000</option>
+                  </select>
+                </p>
+                <p>
+                  <button type="button" onclick="etiquetabordada();" class="btn btn-success">Cotizar</button>
+                 <p>Tomese en cuenta que se agrega iva</p>
+                 <p>costo por pieza: <spam id="Total"></spam> &nbsp;/&nbsp;&nbsp;Total: <span id="Pedidototal"></span></p>
+                </p>
+              </form>
         </div>
   
         
